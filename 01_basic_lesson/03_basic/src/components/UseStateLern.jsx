@@ -27,9 +27,9 @@ function UseStateLern() {
     return (
         <>
             <div>
-                <h1>
+                <h3>
                     useState Hook
-                </h1>
+                </h3>
                 <h4>Count: {count}</h4>
                 <div style={{ display: 'grid', gap: '6px' }}>
                     <button onClick={increase}>Increase</button>

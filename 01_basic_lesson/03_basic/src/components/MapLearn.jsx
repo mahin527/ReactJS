@@ -23,13 +23,13 @@ function MapLearn() {
     return (
         <>
             <div>
-                <h1>
+                <h3>
                     MapLearn
-                </h1 >
+                </h3 >
                 {companyNames.map((element, index) => (
-                    <h4 key={index}>
+                    <h5 key={index}>
                         {element}
-                    </h4>
+                    </h5>
                 ))}
 
             </div>

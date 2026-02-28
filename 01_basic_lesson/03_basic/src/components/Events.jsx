@@ -17,7 +17,7 @@ function Events() {
     return (
         <>
             <div>
-                <h1>Events</h1>
+                <h3>Events</h3>
                 <button onClick={showAlert}>Show Alert</button>
                 <div style={{ marginTop: '8px', display: 'grid', gap: '8px' }}>
                     <button onClick={makeBGLight}>Make Body Light</button>

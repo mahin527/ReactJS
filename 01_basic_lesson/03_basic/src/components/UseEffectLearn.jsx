@@ -11,9 +11,9 @@ function UseEffectLearn() {
     return (
         <>
             <div>
-                <h1>
+                <h3>
                     UseEffectLearn
-                </h1>
+                </h3>
 
                 <h5>Counter: {counter}</h5>
                 <button onClick={() => setCounter(counter + 1)}>Increase</button>

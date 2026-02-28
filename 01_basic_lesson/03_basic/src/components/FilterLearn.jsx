@@ -25,9 +25,9 @@ function FilterLearn() {
     ]
     return (
         <>
-            <h1>
+            <h3>
                 FilterLearn
-            </h1>
+            </h3>
             {persons.filter((data) => data.active).map((person) => (
                 <p key={person.id}>{person.name}</p> 
             ))}

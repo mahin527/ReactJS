@@ -4,6 +4,8 @@ import UseStateLern from './components/UseStateLern'
 import MapLearn from './components/MapLearn'
 import FilterLearn from './components/FilterLearn'
 import UseEffectLearn from './components/UseEffectLearn'
+import FetchDataLearn from './components/FetchDataLearn'
+import FormHandlingLearn from './components/FormHandlingLearn'
 import './App.css'
 
 function App() {
@@ -29,7 +31,7 @@ function App() {
   return (
     <>
       <div>
-        <h1>React Lesson: Counter Project</h1>
+        <h1>React Lessons</h1>
 
         <h2>Counter Value: {countNum} </h2>
         <button onClick={addNumber}>Add value</button>
@@ -43,6 +45,8 @@ function App() {
       <MapLearn />
       <FilterLearn />
       <UseEffectLearn />
+      <FetchDataLearn />
+      <FormHandlingLearn />
     </>
   )
 }
