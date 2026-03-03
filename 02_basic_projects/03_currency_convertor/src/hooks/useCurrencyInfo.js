@@ -8,8 +8,8 @@ function useCurrencyInfo(currency) {
 
         fetch(currencyAPI)
             .then((res) => res.json())
-            .then((res) => setData(res[currency])) // এখানে প্যারামিটার হিসেবে res আসবে
-            .catch((err) => console.error("API Error:", err)) // এরর হ্যান্ডলিং যোগ করো
+            .then((res) => setData(res[currency])) 
+            .catch((err) => console.error("API Error:", err)) 
 
     }, [currency])
 

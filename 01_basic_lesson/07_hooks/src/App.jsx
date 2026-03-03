@@ -1,13 +1,12 @@
 import Index from "./UseReducer/Index"
 import Parent from "./UseCallback/Parent"
-import Child from "./UseCallback/Child"
-
+import UseMemo from "./UseMemo/UseMemo"
 function App() {
   return (
     <>
     <Index />
     <Parent />
-    {/* <Child /> */}
+    <UseMemo />
     </>
   )
 }
